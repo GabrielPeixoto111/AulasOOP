@@ -1,6 +1,6 @@
 import java.util.List;
 
-ublic class Cliente {
+public class Cliente {
     private String nome;
     private String cpf;
     private List<Pedido> pedidos;

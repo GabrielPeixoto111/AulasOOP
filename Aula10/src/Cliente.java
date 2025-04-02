@@ -8,6 +8,7 @@ public class Cliente {
     public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
+        this.pedidos = new ArrayList<>();
     }
 
     public String getNome() {
